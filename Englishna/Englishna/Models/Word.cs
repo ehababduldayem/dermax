@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 
 namespace Englishna.Models
 {
@@ -20,7 +18,7 @@ namespace Englishna.Models
             }
         }
 
-        public string ExampleStr
+        public string ExampleText
         {
             get
             {
@@ -34,6 +32,19 @@ namespace Englishna.Models
         }
 
         public ExampleType ExampleType
+        {
+            get
+            {
+                throw new NotImplementedException();
+            }
+
+            set
+            {
+                throw new NotImplementedException();
+            }
+        }
+
+        public int ExapmleID
         {
             get
             {

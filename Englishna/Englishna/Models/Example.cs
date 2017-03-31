@@ -5,11 +5,13 @@ using System.Web;
 
 namespace Englishna.Models
 {
-    public class Example
+    public interface IExample
     {
-        public string ExampleStr { get; set; }
-        public ICollection<Tag> Tags{ get; set; }
-        public string Description{ get; set; }
-        public ExampleType ExampleType{ get; set; }
+        string ExampleText { get; set; }
+        ICollection<Tag> Tags{ get; set; }
+        string Description{ get; set; }
+        ExampleType ExampleType{ get; set; }
+
+
     }
 }
